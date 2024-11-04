@@ -1,0 +1,41 @@
+<h2>Issue List</h2>
+<div class="issue-list">
+  <ul>
+    <li *ngFor="let issue of issues" class="issue-item">
+      <h3>{{ issue.title }} - <span class="status">{{ issue.status }}</span></h3>
+      <p>{{ issue.description }}</p>
+      <div class="issue-actions">
+        <button class="btn btn-edit" (click)="editIssue(issue)">Edit</button>
+        <button class="btn btn-delete" (click)="deleteIssue(issue.id)">Delete</button>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<!-- Edit Issue Form -->
+<div *ngIf="selectedIssue" class="edit-form">
+  <h3>Edit Issue</h3>
+  <form (ngSubmit)="updateIssue()">
+    <label for="title">Title:</label>
+    <input type="text" [(ngModel)]="selectedIssue.title" name="title" required />
+    
+    <label for="description">Description:</label>
+    <textarea [(ngModel)]="selectedIssue.description" name="description" required></textarea>
+    
+    <label for="status">Status:</label>
+    <select [(ngModel)]="selectedIssue.status" name="status">
+      <option value="open">Open</option>
+      <option value="in-progress">In Progress</option>
+      <option value="closed">Closed</option>
+    </select>
+    
+    <label for="priority">Priority:</label>
+    <select [(ngModel)]="selectedIssue.priority" name="priority">
+      <option value="low">Low</option>
+      <option value="medium">Medium</option>
+      <option value="high">High</option>
+    </select>
+    
+    <button type="submit" class="btn btn-update">Update Issue</button>
+  </form>
+</div>

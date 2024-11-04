@@ -1,0 +1,21 @@
+{
+  "ids": {
+    "Issue": 13
+  },
+  "models": {
+    "Issue": {
+      "1": "{\"title\":\"Sample Issue Title\",\"description\":\"This is a detailed description of the sample issue.\",\"status\":\"open\",\"priority\":\"low\",\"createdAt\":\"2024-11-04T09:27:52.636Z\",\"updatedAt\":\"2024-11-04T09:27:52.636Z\",\"id\":1}",
+      "2": "{\"id\":2,\"title\":\"Bug in Login Functionality\",\"description\":\"Users are unable to log in with valid credentials. This issue needs to be prioritized for a quick fix.\",\"status\":\"open\",\"priority\":\"low\",\"createdAt\":\"2024-11-04T09:35:41.194Z\",\"updatedAt\":\"2024-11-04T09:35:41.194Z\"}",
+      "3": "{\"title\":\"UI Improvement Request\",\"description\":\"The user interface for the dashboard is cluttered. Consider redesigning for better user experience.\",\"status\":\"open\",\"priority\":\"medium\",\"createdAt\":\"2024-11-04T09:47:40.397Z\",\"updatedAt\":\"2024-11-04T09:47:40.397Z\",\"id\":3}",
+      "4": "{\"title\":\"Performance Issue on Report Generation\",\"description\":\"Generating reports takes too long, especially for large datasets. Investigate potential optimizations.\",\"status\":\"in-progress\",\"priority\":\"high\",\"createdAt\":\"2024-11-04T09:51:50.561Z\",\"updatedAt\":\"2024-11-04T09:51:50.561Z\",\"id\":4}",
+      "5": "{\"title\":\"Add Dark Mode Feature\",\"description\":\"Users have requested a dark mode option for better visibility at night. This feature should be added in the next update.\",\"status\":\"in-progress\",\"priority\":\"medium\",\"createdAt\":\"2024-11-04T10:09:53.274Z\",\"updatedAt\":\"2024-11-04T10:09:53.274Z\",\"id\":5}",
+      "6": "{\"title\":\"Misalignment of Buttons on Mobile\",\"description\":\"The buttons on the mobile version of the site are misaligned. This affects user experience and should be fixed.\",\"status\":\"open\",\"priority\":\"low\",\"createdAt\":\"2024-11-04T10:10:15.803Z\",\"updatedAt\":\"2024-11-04T10:10:15.803Z\",\"id\":6}",
+      "7": "{\"title\":\"Slow Page Load Time\",\"description\":\"The homepage takes too long to load, especially on slower internet connections. Investigate and optimize the loading time.\",\"status\":\"open\",\"priority\":\"low\",\"createdAt\":\"2024-11-04T10:12:21.481Z\",\"updatedAt\":\"2024-11-04T10:12:21.481Z\",\"id\":7}",
+      "8": "{\"title\":\"Error 404 on Profile Page\",\"description\":\"Users are encountering a 404 error when trying to access their profile page. This is a critical issue that needs immediate attention.\",\"status\":\"open\",\"priority\":\"low\",\"createdAt\":\"2024-11-04T10:17:26.238Z\",\"updatedAt\":\"2024-11-04T10:17:26.238Z\",\"id\":8}",
+      "9": "{\"title\":\"Improve Screen Reader Support\",\"description\":\"The application does not provide sufficient support for screen readers. This needs to be improved to ensure accessibility for all users.\",\"status\":\"closed\",\"priority\":\"high\",\"createdAt\":\"2024-11-04T10:18:19.684Z\",\"updatedAt\":\"2024-11-04T10:18:19.684Z\",\"id\":9}",
+      "10": "{\"title\":\"Duplicate Entries in Database\",\"description\":\"There are duplicate entries appearing in the user database. This needs to be resolved to maintain data integrity.\",\"status\":\"open\",\"priority\":\"low\",\"createdAt\":\"2024-11-04T10:18:36.181Z\",\"updatedAt\":\"2024-11-04T10:18:36.181Z\",\"id\":10}",
+      "11": "{\"title\":\"Performance Lag in Dashboard\",\"description\":\"The dashboard is experiencing significant performance lag when loading data. This issue affects user experience and needs immediate attention.\",\"status\":\"open\",\"priority\":\"low\",\"createdAt\":\"2024-11-04T10:27:28.760Z\",\"updatedAt\":\"2024-11-04T10:27:28.760Z\",\"id\":11}",
+      "12": "{\"title\":\"Email Notifications Not Sent\",\"description\":\"Users are not receiving email notifications for important updates. This issue needs to be resolved to ensure users stay informed.\",\"status\":\"open\",\"priority\":\"high\",\"createdAt\":\"2024-11-04T10:32:19.114Z\",\"updatedAt\":\"2024-11-04T10:32:19.114Z\",\"id\":12}"
+    }
+  }
+}
